@@ -134,6 +134,20 @@ Estéticamente agradable para los niños | No | Sí
 
 Por lo que ambas herramientas resultan de gran importancia para iniciarse en el mundo de la programación, sin embargo están pensadas para un público diferente.
 
+### Optionals
+Es una forma de indicar que una variable puede recibir un valor NIL o Null
+```jsx
+var nombre: String? = "Pánfilo"
+nombre = nil //Se asigna un valor “nil” a la variable nombre
+if nombre != nil {
+	print(“Nombre: \(nombre).”)
+}
+if nombre == nil { 
+	print(“No hay un nombre para mostrar.”)
+}
+```
+
+### Closures
 
 ### Fuentes de Consulta
 - THE ARCHITECTURE OF OPEN SOURCE APPLICATIONS, CHRIS LATER
